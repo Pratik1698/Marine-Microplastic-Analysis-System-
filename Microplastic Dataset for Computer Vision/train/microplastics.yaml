@@ -1,0 +1,8 @@
+
+path: ./yolo_dataset  # dataset root dir
+train: images/train  # train images (relative to 'path')
+val: images/train    # using train for validation just for hackathon prototyping
+
+# Classes
+names:
+  0: Microplastic
